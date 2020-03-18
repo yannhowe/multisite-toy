@@ -1,0 +1,1 @@
+/usr/local/bin/gunicorn all_sauce_2.wsgi:application -w 2 -b :8000 --chdir /usr/src/app
